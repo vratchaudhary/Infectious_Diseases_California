@@ -1,37 +1,7 @@
-## Welcome to GitHub Pages
+##Infectious diseases
 
-You can use the [editor on GitHub](https://github.com/vratchaudhary/Infectious_Diseases_California/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Infectious diseases are major concern in densely populated conditions. Understandig trends of infectious diseases prevented by vaccine can give a good insight on what and how the diseases spread and what conditions diseases depend on.
+Here I have gathered infectious disease data of California from CDC [Link] (https://data.chhs.ca.gov/dataset/vaccine-preventable-disease-cases-by-county-and-year/resource/a7a4d868-f6d2-49c9-8a11-904c69a0e3a0), and demography data from 2010 census [Link] (https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=CF)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vratchaudhary/Infectious_Diseases_California/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
