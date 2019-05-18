@@ -41,6 +41,18 @@ ggplot(dis)+
   theme(axis.title.y = element_text(size=16))+
   labs(title = "Number of cases of infectious diseases in california counties")
   ###########
+ggplot(dis)+
+  geom_jitter(aes(year,count,col=disease))+
+  ylim(0,3000)+
+  ggpubr::theme_pubr()+
+  xlab("Year")+
+  ylab("Number of cases")+
+  theme(axis.text.x = element_text(size=16))+
+  theme(axis.title.x = element_text(size=16))+
+  theme(axis.text.y = element_text(size=16))+
+  theme(axis.title.y = element_text(size=16))+
+  labs(title = "Number of cases of infectious diseases in california counties")
+  
 ###################
 #split the data for county from census
 head(cenus)

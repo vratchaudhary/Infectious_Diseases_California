@@ -1,5 +1,5 @@
 ---
-title: "Untitled"
+title: "Infectious_diseases"
 author: "VC"
 date: "5/13/2019"
 output: pdf_document
@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Infectious diseases are major concern in densely populated conditions. Understandig trends of infectious diseases prevented by vaccine can give a good insight on what and how the diseases spread and what conditions diseases depend on.
 Here I have gathered infectious disease data of California from CDC, and demography data from 2010 census (https://factfinder.census.gov/faces/tableservices/jsf/pages/productview.xhtml?src=CF)
-```{r cars}
+```{r }
 ##needed packages
 library(dplyr)
 library(tidyverse)
@@ -30,7 +30,7 @@ colnames(cenus)<- c("ID","ID2","Geog","Geoid1","Geoid2","Geographicarea",
 
 The following plot states the population size per county
 
-```{r pressure, echo=FALSE}
+```{r , echo=FALSE}
 ##
 ggplot(cenus)+
   geom_col(aes(county,Population, fill=county))+
@@ -47,7 +47,7 @@ ggplot(cenus)+
 ## Disease distribution per county
 
 The following plot states the population size per county
-```{r pressure, echo=FALSE, warning=FALSE}
+```{r , echo=FALSE, warning=FALSE}
 ##
 dis<- read.csv("izb_odp_final_03262019.csv")
 head(dis)
